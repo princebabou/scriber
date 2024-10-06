@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex items-center space-x-4">
             <Link href="/" className="flex items-center space-x-2">
               <Headphones className="h-6 w-6" />
-              <span className="font-bold">Scriber</span>
+              <span className="font-bold">Scribber</span>
             </Link>
           </div>
           <nav className="flex items-center space-x-6 text-sm font-medium">
@@ -26,7 +26,7 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                  Transform Audio to Text with Scriber
+                  Transform Audio to Text with Scribber
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                   Accurate, fast, and secure audio transcription powered by cutting-edge AI technology.
@@ -50,7 +50,7 @@ export default function Home() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container mx-auto px-4 md:px-8">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">How Scriber Works</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">How Scribber Works</h2>
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-12 items-start">
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900">
@@ -78,7 +78,7 @@ export default function Home() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-8">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Why Choose Scriber</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Why Choose Scribber</h2>
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-12">
               <div className="flex items-start space-x-4">
                 <Clock className="mt-1 h-6 w-6 text-blue-500 dark:text-blue-400" />
@@ -106,7 +106,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
-        © 2024 Scriber. All rights reserved.
+        © 2024 Scribber. All rights reserved.
       </footer>
     </div>
   )

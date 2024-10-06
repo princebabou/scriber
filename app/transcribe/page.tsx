@@ -142,7 +142,7 @@ export default function TranscribePage() {
           <div className="flex items-center space-x-4">
             <Link href="" className="flex items-center space-x-2">
               <Headphones className="h-6 w-6" />
-              <span className="font-bold" onClick={() => window.location.reload}>Scriber</span>
+              <span className="font-bold" onClick={() => window.location.reload}>Scribber</span>
             </Link>
           </div>
           <nav className="flex items-center space-x-6 text-sm font-medium">
@@ -293,7 +293,7 @@ export default function TranscribePage() {
       </main>
 
       <footer className="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
-        © 2024 Scriber. All rights reserved.
+        © 2024 Scribber. All rights reserved.
       </footer>
     </div>
   );

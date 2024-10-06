@@ -10,7 +10,7 @@ export default function AboutPage() {
           <div className="flex items-center space-x-4">
             <Link href="/" className="flex items-center space-x-2">
               <Headphones className="h-6 w-6" />
-              <span className="font-bold">Scriber</span>
+              <span className="font-bold">Scribber</span>
             </Link>
           </div>
           <nav className="flex items-center space-x-6 text-sm font-medium">
@@ -25,7 +25,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4 md:px-8">
             <div className="flex flex-col items-center space-y-4 text-center">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                About Scriber
+                About Scribber
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                 Revolutionizing audio transcription with cutting-edge AI technology.
@@ -70,7 +70,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4 md:px-8">
             <div className="flex flex-col items-center space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Join the Scriber Community
+                Join the Scribber Community
               </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                 Experience the future of audio transcription today.
@@ -86,7 +86,7 @@ export default function AboutPage() {
         </section>
       </main>
       <footer className="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
-        © 2024 Scriber. All rights reserved.
+        © 2024 Scribber. All rights reserved.
       </footer>
     </div>
   )

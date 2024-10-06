@@ -9,7 +9,7 @@ function Header() {
       <div className="container mx-auto flex h-14 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-2">
           <Headphones className="h-6 w-6" />
-          <span className="font-bold">Scriber</span>
+          <span className="font-bold">Scribber</span>
         </Link>
         <nav className="flex items-center space-x-6 text-sm font-medium">
           <Link href="/about">About</Link>
@@ -25,7 +25,7 @@ function Header() {
 function Footer() {
   return (
     <footer className="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
-      © 2024 Scriber. All rights reserved.
+      © 2024 Scribber. All rights reserved.
     </footer>
   );
 }
@@ -53,10 +53,10 @@ export default function DocsPage() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                Scriber Documentation
+                Scribber Documentation
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                Everything you need to know about using Scriber for your transcription needs.
+                Everything you need to know about using Scribber for your transcription needs.
               </p>
             </div>
           </div>
@@ -69,13 +69,13 @@ export default function DocsPage() {
               <Card
                 icon={FileText}
                 title="Getting Started"
-                description="Learn the basics of Scriber and how to set up your account."
+                description="Learn the basics of Scribber and how to set up your account."
                 buttonText="Read Guide"
               />
               <Card
                 icon={Code}
                 title="API Reference"
-                description="Detailed documentation for integrating Scriber into your applications."
+                description="Detailed documentation for integrating Scribber into your applications."
                 buttonText="Explore API"
               />
               <Card
