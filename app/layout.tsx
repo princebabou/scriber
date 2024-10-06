@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import './globals.css'
 import { Nunito } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 import { Toaster } from '@/components/ui/toaster'
