@@ -7,7 +7,7 @@ import { Toaster } from '@/components/ui/toaster'
 const nunito = Nunito({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata = {
-  title: 'AudioTranscribe',
+  title: 'Scriber',
   description: 'Transcribe your audio files with ease using AI',
 }
 
