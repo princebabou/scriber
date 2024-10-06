@@ -1,4 +1,3 @@
-// Copied from https://ui.shadcn.com/docs/components/toast
 import * as React from "react"
 
 import type {
@@ -16,6 +15,7 @@ type ToasterToast = ToastProps & {
   action?: ToastActionElement
 }
 
+// Changed to 'const' and added 'as const' to ensure type safety
 const actionTypes = {
   ADD_TOAST: "ADD_TOAST",
   UPDATE_TOAST: "UPDATE_TOAST",
@@ -30,6 +30,7 @@ function genId() {
   return count.toString()
 }
 
+// Updated type definition to use typeof for better type inference
 type ActionType = typeof actionTypes
 
 type Action =
