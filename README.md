@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Scribber
 
-First, run the development server:
+Scriber is an audio transcription app that turns your messy, hour-long recordings into text—because reading a wall of words is so much more exciting than listening to the actual audio, right? Perfect for when you want to pretend you’re paying attention but really just need the TL;DR version of everything. 😎
+
+
+
+
+## Features (because we had to)
+
+- Convert audio to text 🗣️ ➡️ 📜
+Yes, the app actually works. You throw audio at it, and it spits out words. Magic? No. AI? Obviously.
+
+- Supports multiple formats 🎶
+MP3? WAV? Random audio file you found on the internet? We got you. If it makes noise, we’ll turn it into text—whether it’s useful or not is a different story. 😏
+
+- Fast and accurate (most of the time) ⏩
+“Fast” is a relative term, but hey, it’s quicker than you typing it out yourself. And accuracy? Let’s just say the AI tries its best… kind of like you in life.
+
+- Save and export transcriptions 💾
+You can export the transcriptions and pretend you’ll actually read them later. Spoiler: You won’t.
+
+- Minimalist UI 🧘‍♂️
+We kept it clean and simple, so you don’t get distracted from your real distraction—scrolling on Instagram. You're welcome.
+
+
+
+## Installation (because we know you’ll still ask)
+
+Clone this repo. Or don’t. It’s your life, I’m not your boss
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/princebabou/scriber.git
+
 ```
+```bash
+  cd scriber
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+```bash
+  npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+```bash
+  npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+    
+## How to Use (it’s easier than ordering takeout)
 
-## Learn More
+- Upload your audio file 🎙️
+Drag and drop, because clicking is overrated.
 
-To learn more about Next.js, take a look at the following resources:
+- Wait patiently ⏳
+Or impatiently—it’s your call. The app needs a second to “think.”
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Get your text 📝
+Boom! Your words, neatly served on a digital platter. Whether they’re correct? Well, that’s on you. AI isn’t perfect, okay?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Export if you feel like it 💾
+You can export the transcription to impress your friends or your boss. They won’t know you barely listened to the meeting.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions are always welcome!
+
+Want to contribute? Awesome. 
+
+We love volunteers who do free work. Fork the repo, make some `improvements` (or break it, we don’t care), and submit a `PR`. We’ll review it and merge
+
